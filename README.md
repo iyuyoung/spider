@@ -3,3 +3,5 @@
 ![image](qrcode.jpg)
 
 > 文章列表
+
+[Python爬虫实战——requests-html](https://mp.weixin.qq.com/s/G2UhJ8UH-QX992fsKWsOoA)

@@ -5,7 +5,7 @@ session = HTMLSession()
 # 使用requests-html 演示爬取 好奇心日报
 def parse():
     r = session.get('http://www.qdaily.com/')
-    r.html.render(script='window.scrollTo(10,document.body.scrollHeight)', scrolldown=3)
+    r.html.render()
     # 获取首页新闻标签、图片、标题、发布时间
     for x in r.html.find('.packery-item'):
         yield {
